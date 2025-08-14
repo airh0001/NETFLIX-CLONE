@@ -1,0 +1,58 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-image: url("assests/img/Netflix-Background.jpg");
+    height: 80vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100%);
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+    top:0;
+    position:absolute
+}
+nav{
+    display: flex;
+    max-width: 80vw;
+    height: 62px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+}
+nav img{
+    color: red;
+    width:144px;
+    z-index:10;
+    position: relative;
+}
+nav button{
+    z-index:10;
+    position: relative;
+}
+.hero{ font-family: 'Martel Sans', sans-serif;
+       font-family:'Poppins', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position : relative;
+
+}
+.hero :first-child{
+    font-weight: bolder;
+    font-size: 48px;
+    line-height:70px;
+}
